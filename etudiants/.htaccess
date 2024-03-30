@@ -1,0 +1,10 @@
+Order deny,allow
+Allow from all
+#Deny from all
+#Allow from 10.132.1.5
+#Allow from 10.132.120
+#Allow from 10.132.121
+#Allow from 10.132.122
+#Allow from 10.132.123
+#Allow from 10.132.125
+

@@ -1,0 +1,644 @@
+/**
+ *
+ * Affichage du menu horizontal 
+ *
+ *
+ *
+ **/
+#menuhorizontale {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ line-height:60px; /*hauteur de l'image de fond*/
+ background:darkred url('./images/boutonhi.png') repeat-x;
+ width:100%;
+ height:62px;
+ color:lightyellow;
+ border-radius: 5px;
+ 
+ }
+#menuhorizontale li {
+ float:left; /*pour IE*/
+     list-style-type:none; 
+ }
+ 
+#menuhorizontale li a {
+ list-style-type:none;     
+ display:block;
+ float:left;   
+ width:auto;
+ color:lightyellow;
+ text-decoration:none;
+ text-align:center;
+ padding-left:10px;
+ padding-right:10px; 
+ }
+ 
+#menuhorizontale li a:hover {
+ background:darkred url('./images/boutonlo.png') repeat-x;
+ color:white;
+ font-weight:bold;
+ } 
+
+
+#NbDemandes{
+    float:right;
+    margin-right:5px;
+    font-size:36pt;
+    color:white;
+    text-align:right;
+    clear:both;
+}
+
+
+
+
+
+
+
+/* Affichage du message popup pour les capsules de formation avec X pour fermer */
+#message{
+    border-radius: 15px;
+    border-style: inset;
+    display:block;
+    width:100%;
+    text-align:center;
+    color:white;
+    background-color:rgba(255,0,0,0.3);
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+#message a{
+    color:white;
+    text-decoration:none;
+}
+
+#message a:hover{
+    color:yellow;
+    text-decoration:none;
+    cursor:help;
+}
+
+
+#close_icomsg{
+    padding: 10px;
+    float:right;
+    text-decoration:none;
+}
+#close_icomsg a{
+
+    text-decoration:none;
+    font-weight:bold;
+    color:#000000;
+}
+#close_icomsg a:hover{
+
+    text-decoration:none;
+    background-color:yellow;
+    
+}
+
+
+/* lien pour la documentation sur la page d'accueil */
+.liendoc{
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.liendoc a{
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 3px 3px lightgray;     
+    text-decoration: none;
+}
+
+.liendoc a:hover{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 3px 3px lightgray;     
+}
+
+.liendoc img{
+    width: 60px;
+}
+
+
+
+
+/*Largeur limite de la page et couleur de fond*/
+body
+{
+    width:1020px;
+    margin:auto;
+    background-color:#aaaaaa;
+}
+
+
+
+
+
+/**
+ *
+ *  Mod�le d'affichage des erreurs avec fond orange et icone 
+ *  � droite 
+ *
+ **/
+
+.erreur
+{
+    background-color:#f6cd8f;
+    border:1px solid;
+    background-image:url("images/logo_erreur.png");
+    background-position:right;
+    background-repeat:no-repeat;
+    min-height:100px;
+    padding: 10px;
+    min-height: 300px;
+    margin-top: 50px;
+    
+    
+}
+
+.erreur input{
+    height: 50px;
+    width: 200px;
+    float: right;
+}
+
+.erreurtxt{
+    color: red;
+    font-size: x-large;
+    text-shadow: #333333;
+}
+
+
+.msgerreur{
+    font-size: 0.6em;
+    color: red;
+    font-weight: bolder;
+}
+
+
+
+.msgsucces{
+    font-size: 0.6em;
+    color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+
+
+
+
+/*  D�finir l'affichage de la bo�te de connexion */
+.loginbox
+{
+    background-color:#cccccc;
+    border-radius:9px;
+    border:3px outset;
+    padding:10px;
+    width:350px;
+    height:auto;
+    vertical-align:middle;
+    
+}
+
+
+
+
+/* D�finir le format de la bo�te de d�connexion */
+.disbox
+{
+width:auto;
+display:inline;
+float:right;
+}
+
+.disbox a
+{
+text-decoration:none;
+color:#660000;
+}
+
+.disbox a:hover
+{
+text-decoration:underline;
+font-weight:bold;
+color:white;
+}
+
+  
+
+
+
+
+
+
+/* Ajuster la taille de la l�gende */
+fieldset legend
+{
+    font-size:10pt;
+}
+
+
+
+
+
+
+/**
+*
+*  formulaire de modification du message titre
+*
+*
+**/
+#ListeMessages{
+    margin:auto;
+    text-align: center;
+    float: right;    
+    /*//border-style: inset;*/
+    width: 450px;
+    height: 400px;
+    overflow: scroll;
+    overflow-y:  visible;
+    overflow-x:  hidden;
+    
+    
+}
+
+.FormMessage{
+    width: 450px;
+   /*//border: 1px blue solid;
+    //float: left;*/
+        
+   
+}
+
+#piedFormMessage{
+    width: 100%;
+    /*//border: 1px yellow solid;*/
+}
+
+.ligneMessage:hover{
+    background-color: rgba(255,0,0,0.2);
+}
+
+.ligneMessageDesabled{
+    color:darkgray;
+    background-color: lightgrey;
+}
+
+.ligneMessageDesabled:hover{
+    color:lightgrey;
+    background-color: rgba(255,0,0,0.2);
+}
+
+/**
+ *
+ *
+ *  Ensemble de styles d'affichage pour les d�tail d'une demande
+ *
+ **/
+/* Entrourer la liste avec les coins arrondis */
+.ListeDemandes
+{
+    margin-bottom:5px;
+    background-color:#cccccc;
+    border-radius:9px;
+    border:3px outset;
+    padding:3px;
+    font-size:16pt;
+    
+}
+
+
+table.ListeDemandes  td
+{
+    padding:3px;
+    border-style:solid;
+    border-width:0px;
+}
+
+
+/* Ligne titre des demandes */
+.LigneTitre{
+    background-color:#333333;
+    color:white;
+    font-weight:bold;
+    border-style:none;
+    border-width:0px;    
+}
+
+/* Taille des champs */
+.ID{
+    width:10%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Nom{
+    width:60%;
+    border-style:none;
+    border-width:0px;
+}
+    
+.Local{
+    width:15%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Poste{
+    width:10%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Operations{
+    text-align:center;
+    border-style:none;
+    border-width:0px;     
+}
+
+
+
+
+
+
+
+/* Bouton pour lien moodle */
+.IconeURL{
+    width:30px;
+    border-style:none;
+}
+.IconeURL:hover{
+    width:30px;
+    border:solid 1px;
+}
+
+
+/* Ajouter un pictogramme terminer */
+.IconeTerminer{
+    width:30px;
+    border-style:none;
+}
+
+.IconeTerminer:hover{
+    width: 30px;
+    border:solid 1px;
+}
+
+
+
+/* Ajouter un pictogramme terminer */
+.IconeImprimer{
+    width:42px;
+    border-style:none;
+}
+
+.IconeImprimer:hover{
+    width: 42px;
+    border:solid 1px;
+}
+
+
+/* Ajouter un pictogramme suprimer */
+.IconeSupprimer{
+    width:30px;
+    border-style:none;
+}
+
+/* Ajouter un pictogramme suprimer */
+.IconeSupprimer:hover{
+    width:30px;
+    border:solid 1px;
+}
+
+
+/* Gérer un pictogramme terminer */
+.IconeGerer{
+    width:42px;
+    border-style:none;
+}
+.IconeGerer:hover{
+    width: 42px;
+    border:solid 1px;
+}
+
+
+
+
+/* Ajouter un pictogramme suprimer */
+.IconeDupliquer{
+    width:42px;
+    border-style:none;
+}
+
+/* Ajouter un pictogramme suprimer */
+.IconeDupliquer:hover{
+    width:42px;
+    border:solid 1px;
+}
+
+
+
+
+
+/* couleur de la demande attente */
+.EnAttente{
+    background-color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* D�finir la taille et la position de la zone image et de l'image du lien */
+.image
+{
+text-align:right;
+top:10px;
+position:relative;
+min-height:50px;
+}
+.image img
+{
+width:250px;
+}
+
+
+
+/* D�finir la poption de la date sous l'image a droite */
+.dateinscription
+{
+margin-top:10px;
+text-align:right;
+}
+
+
+
+/* position des icones pour l'ajout, modification et suppression */
+.icones
+{
+    text-align:right;
+    
+}
+
+/* D�finir la taille et la bordure des icones */
+.icones img
+{
+    width:30px;
+    border-style:none; 
+}
+
+
+/* Affachage du bouton de retour */
+.retour
+{
+    text-align:right;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.retour a
+{
+    text-decoration:none;
+    font-size: larger;
+}
+.retour img{
+    float: right;
+    zoom: 2;
+}
+
+/* Affiche du nombre de demande de l'�l�ve */
+.nbdemande
+{
+font-size:8pt;
+font-weight:bold;
+font-style:italic;
+color:brown;
+}
+
+
+
+/* Style d'affichage pour le plan */
+#plan {
+	float:left;
+	width:520px;
+	min-height:480px;
+}
+
+#listedemandes{
+	float:right;    
+	width:480px;
+}
+
+
+#pied{
+	clear:both;
+	display:block;
+	width:1020px;
+}
+
+/*   STYLE GÉNÉRIQUE POUR BOUTON */
+.cmdBouton{
+    width: 150px;
+}
+
+.listeInscription{
+    border: none;
+    color: lightyellow;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.listeInscription:hover{
+    color: white;
+    border: 1px solid darkblue;
+    font-size: 16pt;
+}
+
+ /* CSS pour la vignette SVG */
+ .svg-view {
+    width: 500px; /* Largeur de la vignette (vous pouvez ajuster selon vos besoins) */
+    height: 500px; /* Hauteur automatique pour maintenir les proportions */
+    border: 1px solid #ccc; /* Bordure (facultatif) */
+    padding: 5px; /* Espacement intérieur (facultatif) */
+    overflow: hidden; /* Masquer le contenu SVG qui dépasse */
+}
+
+/* CSS pour le contenu SVG à l'intérieur de la vignette */
+.svg-view svg {
+    max-width: 100%; /* Le SVG s'ajustera à la largeur de la div parent */
+    max-height: 100%; /* Le SVG s'ajustera à la hauteur de la div parent */
+    display: block; /* Pour éviter les marges par défaut */
+    background-color: #ffffff;
+}
+
+/*
+* Affichage de vignette type de demande
+*
+*
+*
+*/
+
+.Validation {
+    background-color: #00ff00;
+    padding: 2px;
+    border-radius: 7px;
+    position: relative;
+    float: right;
+    font-family: Arial;
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.5em;
+  }
+  
+  .Explication {
+    background-color: #ffff00;
+    padding: 2px;
+    border-radius: 7px;
+    font-family: Arial;
+    position: relative;
+    float: right;
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.5em;
+  }
+  
+  .Examen {
+    background-color: #ff0000;
+    padding: 2px;
+    font-family: Arial;
+    border-radius: 7px;
+    position: relative;
+    float: right;    
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.5em;
+  }
+  
+  /* Combiner les classes */
+  
+  .validation.examen {
+    background-color: #FF8000; /* Couleur orange */
+  }

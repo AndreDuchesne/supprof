@@ -1,0 +1,633 @@
+/**
+ *
+ * Affichage du menu horizontal 
+ *
+ *
+ *
+ **/
+#menuhorizontale {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ line-height:60px; /*hauteur de l'image de fond*/
+ background:darkred url('./images/boutonhi.png') repeat-x;
+ width:100%;
+ height:62px;
+ color:lightyellow;
+ border-radius: 5px;
+ }
+#menuhorizontale li {
+ float:left; /*pour IE*/
+     list-style-type:none; 
+ }
+ 
+#menuhorizontale li a {
+ list-style-type:none;     
+ display:block;
+ float:left;   
+ width:auto;
+ color:lightyellow;
+ text-decoration:none;
+ text-align:center;
+ padding-left:10px;
+ padding-right:10px; 
+ }
+ 
+#menuhorizontale li a:hover {
+ background:darkred url('./images/boutonlo.png') repeat-x;
+ color:white;
+ font-weight:bold;
+ } 
+
+
+#NbDemandes{
+    float:right;
+    margin-right:10px;
+    font-size:36pt;
+    color:white;
+    text-align:right;
+    clear:both;
+}
+
+
+
+
+/* Affichage du message popup pour les capsules de formation avec X pour fermer */
+#message{
+    border-radius: 15px;
+    border-style: inset;
+    display:block;
+    width:100%;
+    text-align:center;
+    color:white;
+    background-color:rgba(255,0,0,0.3);
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+#message a{
+    color:white;
+    text-decoration:none;
+}
+
+#message a:hover{
+    color:yellow;
+    text-decoration:none;
+    cursor:help;
+}
+
+
+#close_icomsg{
+    float:right;
+    text-decoration:none;
+}
+#close_icomsg a{
+
+    text-decoration:none;
+    font-weight:bold;
+    color:#000000;
+}
+#close_icomsg a:hover{
+
+    text-decoration:none;
+    background-color:yellow;
+    
+}
+
+
+/*Largeur limite de la page et couleur de fond*/
+body
+{
+    width:800px;
+    margin:auto;
+}
+
+
+
+
+
+/**
+ *
+ *  Mod�le d'affichage des erreurs avec fond orange et icone 
+ *  � droite 
+ *
+ **/
+
+.erreur
+{
+    background-color:#f6cd8f;
+    border:1px solid;
+    background-image:url("images/logo_erreur.png");
+    background-position:right;
+    background-repeat:no-repeat;
+    min-height:100px;
+    
+    
+}
+
+
+
+
+
+/**
+*
+*  Paramètres de l'affichage de la demande 
+*  compétence et numéro du bloc
+*
+*
+*/
+.detaildemande
+{
+    line-height: 15px;
+}
+
+.detaildemande a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.detaildemande a:hover
+{
+   text-shadow: 1px 1px 3px darkred;
+}
+
+
+
+/**
+ *
+ *
+ *  Ensemble de styles d'affichage pour les d�tail d'une demande
+ *
+ **/
+/* Entrourer la liste avec les coins arrondis */
+.ListeDemandes
+{
+    margin-bottom:10px;
+    background-color:#cccccc;
+    border-radius:9px;
+    border:3px outset;
+    padding:10px;
+    font-size:18pt;
+    
+}
+
+/* Ajuster la taille de la l�gende */
+fieldset legend
+{
+    font-size:10pt;
+}
+
+table.ListeDemandes  td
+{
+    padding:3px;
+    border-style:solid;
+    border-width:0px;
+}
+
+
+/* Ligne titre des demandes */
+.LigneTitre{
+    background-color:#333333;
+    color:white;
+    font-weight:bold;
+    border-style:none;
+    border-width:0px;    
+}
+
+/* Taille des champs */
+.ID{
+    width:10%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Nom{
+    width:60%;
+    border-style:none;
+    border-width:0px;
+}
+    
+.Local{
+    width:15%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Poste{
+    width:10%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Operations{
+    text-align:center;
+    border-style:none;
+    border-width:0px;     
+}
+
+
+
+/* Ajouter un pictogramme terminer */
+.IconeTerminer{
+    width:70px;
+    border-style:none;
+}
+
+.IconeTerminer:hover{
+    border:solid 1px;
+}
+
+
+/* Ajouter un pictogramme suspprimer */
+.IconeSupprimer{
+    width:50px;
+    border-style:none;
+}
+
+/* Ajouter un pictogramme suspprimer */
+.IconeSupprimer:hover{
+    zoom: 1.5;
+}
+
+
+/* couleur de la demande attente */
+.EnAttente{
+    background-color:yellow;
+}
+
+/* couleur de la demande en cours */
+.EnCours{
+    background-color:#66aa66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* D�finir la taille et la position de la zone image et de l'image du lien */
+.image
+{
+text-align:right;
+top:10px;
+position:relative;
+min-height:50px;
+}
+.image img
+{
+width:250px;
+}
+
+
+
+/* D�finir la poption de la date sous l'image a droite */
+.dateinscription
+{
+margin-top:10px;
+text-align:right;
+}
+
+
+
+/* position des icones pour l'ajout, modification et suppression */
+.icones
+{
+    text-align:right;
+    
+}
+
+/* D�finir la taille et la bordure des icones */
+.icones img
+{
+    width:30px;
+    border-style:none; 
+}
+
+
+/* Affachage du bouton de retour */
+.retour
+{
+    text-align:right;
+}
+.retour a
+{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+/*                                                  */
+/*                                                  */
+/*               CUSTUM ALERT BOX                   */
+/*                                                  */
+/*                                                  */
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+
+
+
+
+/*                                                                          */
+/*              formulaire pour confirmation de l'inscription               */
+/*                                                                          */
+.divDetailEvent {
+    margin-bottom:10px;
+    background-color:#cccccc;
+    border-radius:9px;
+    border:3px outset;
+    padding:10px;
+    font-size:24pt;
+    color: #666666;
+}
+
+.frmDetailEvent.description
+{   
+    border: 3px groove;
+    border-radius: 15px;
+    padding: 15px;
+    width: 95%;
+    background-color: rgba(120,120,120,0.1);
+    font-family:sans-serif;
+    color: black;
+    font-size: 16pt;
+}
+
+.frmDetailEvent.titre
+{   
+    color: black;
+    width: 80%;
+    font-family: sans-serif;
+}
+
+.frmDetailEvent.enseignant.label
+{   
+    font-size: 18pt;
+}
+
+.frmDetailEvent.enseignant.value
+{   
+    color: black;    
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+
+
+.frmDetailEvent.avisinscription.label
+{   
+    font-size: 16pt;
+    
+}
+
+.frmDetailEvent.avisInscription.value
+{   
+    border: 3px groove;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;    
+    background-color: rgba(120,120,120,0.1);
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+.frmDetailEvent.avisSuppression.value
+{   
+    border: 3px groove;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;    
+    background-color: rgba(255,0,0,0.1);
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+.frmDetailEvent.avisErreur.value
+{   
+    border: 3px groove;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;    
+    background-color: rgba(255,0,0,0.1);
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+
+.frmDetailEvent.avisAjout.value
+{   
+    border: 3px groove;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;    
+    background-color: rgba(0,255,0,0.1);
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+
+.frmDetailEvent.dateevent.label
+{   
+    color: #666666;
+    font-size: 18pt;
+}
+
+.frmDetailEvent.dateevent.value
+{   
+    color: black;    
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+
+
+
+.frmDetailEvent.endroit.label
+{   
+    color: #666666;
+    font-size: 18pt;
+}
+
+.frmDetailEvent.endroit.value
+{   
+    color: black;    
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+
+.frmDetailEvent.lien.label
+{   
+    color: #666666;
+    font-size: 18pt;
+}
+
+.frmDetailEvent.lien.value
+{   
+    color: black;    
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: left;
+}
+
+.frmDetailEvent.lien.logo img
+{   
+
+    width: 42px;
+}
+
+
+
+
+
+.frmDetailEvent.cmdEnregistrer
+{   
+width: 140px;
+
+}
+.frmDetailEvent.cmdSupprimer
+{   
+width: 140px;
+
+}
+
+
+.frmDetailEvent.tblDetailEvent{
+    
+    width: 100%;
+}
+
+
+
+
+
+
+#formDemandeEleve input:not([type="submit"]), #formDemandeEleve select{
+	width:100%;
+}
+
+#cheklistEleve {
+	float:left;
+}
+
+
+
+/* Style d'affichage pour le plan */
+#plan {
+	float:left;
+	width:520px;
+	min-height:480px;
+}
+
+ /* CSS pour la vignette SVG */
+ .svg-view {
+    width: 500px; /* Largeur de la vignette (vous pouvez ajuster selon vos besoins) */
+    height: 500px; /* Hauteur automatique pour maintenir les proportions */
+    border: 1px solid #ccc; /* Bordure (facultatif) */
+    padding: 5px; /* Espacement intérieur (facultatif) */
+    overflow: hidden; /* Masquer le contenu SVG qui dépasse */
+    margin: 10px;
+    position: absolute; /* Position absolue */
+    z-index: 1; /* Indice de profondeur (au-dessus du contenu) */
+
+}
+
+/* CSS pour le contenu SVG à l'intérieur de la vignette */
+.svg-view svg {
+    max-width: 100%; /* Le SVG s'ajustera à la largeur de la div parent */
+    max-height: 100%; /* Le SVG s'ajustera à la hauteur de la div parent */
+    display: block; /* Pour éviter les marges par défaut */
+    background-color: #ffffff;
+}
+
+
+
+
+/*
+* Affichage de vignette type de demande
+*
+*
+*
+*/
+
+.Validation {
+    background-color: #00ff00;
+    padding: 2px;
+    border-radius: 7px;
+    position: relative;
+    float: right;
+    font-family: Arial;
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.5em;
+    display: none;
+  }
+  
+  .Explication {
+    background-color: #ffff00;
+    padding: 2px;
+    border-radius: 7px;
+    font-family: Arial;
+    position: relative;
+    float: right;
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.5em;
+    display: none;
+
+  }
+  
+  .Examen {
+    background-color: #ff0000;
+    padding: 2px;
+    font-family: Arial;
+    border-radius: 7px;
+    position: relative;
+    float: right;    
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.5em;
+    display: none;
+  }
+  
+  /* Combiner les classes */
+  
+  .validation.examen {
+    background-color: #FF8000; /* Couleur orange */
+  }

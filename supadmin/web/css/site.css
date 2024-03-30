@@ -1,0 +1,153 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.logohilight{
+font-size: 24pt;
+font-style: italic;
+font-weight: bold;
+text-shadow: 3px 3px 3px #bbbbbb;
+}
+
+.logohilight:hover{
+    font-size: 24pt;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px #0d6efd;
+}
+
+.paragraphe{
+   margin-bottom: 10px;
+   margin-top: 10px;
+   padding: 5px;
+   border-color: silver;
+   border-width: 1px;
+   border-style:solid;
+   border-radius: 15px;   
+}
+a.asc::after{
+    content: "\2191"; 
+}
+a.desc::after{
+    content: "\2193";
+ }
+
+ /* CSS pour la vignette SVG */
+.svg-thumbnail {
+    width: 200px; /* Largeur de la vignette (vous pouvez ajuster selon vos besoins) */
+    height: 200px; /* Hauteur automatique pour maintenir les proportions */
+    border: 1px solid #ccc; /* Bordure (facultatif) */
+    padding: 5px; /* Espacement intérieur (facultatif) */
+    overflow: hidden; /* Masquer le contenu SVG qui dépasse */
+}
+
+/* CSS pour le contenu SVG à l'intérieur de la vignette */
+.svg-thumbnail svg {
+    max-width: 100%; /* Le SVG s'ajustera à la largeur de la div parent */
+    max-height: 100%; /* Le SVG s'ajustera à la hauteur de la div parent */
+    display: block; /* Pour éviter les marges par défaut */
+}
+
+ /* CSS pour la vignette SVG */
+ .svg-view {
+    width: 500px; /* Largeur de la vignette (vous pouvez ajuster selon vos besoins) */
+    height: 500px; /* Hauteur automatique pour maintenir les proportions */
+    border: 1px solid #ccc; /* Bordure (facultatif) */
+    padding: 5px; /* Espacement intérieur (facultatif) */
+    overflow: hidden; /* Masquer le contenu SVG qui dépasse */
+}
+
+/* CSS pour le contenu SVG à l'intérieur de la vignette */
+.svg-view svg {
+    max-width: 100%; /* Le SVG s'ajustera à la largeur de la div parent */
+    max-height: 100%; /* Le SVG s'ajustera à la hauteur de la div parent */
+    display: block; /* Pour éviter les marges par défaut */
+}

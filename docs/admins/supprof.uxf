@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>294</x>
+      <y>21</y>
+      <w>329</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>halign=center
+SUPPROF
+Diagramme de cas d'utilisation
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>238</x>
+      <y>161</y>
+      <w>119</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Use case 1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>56</x>
+      <y>56</y>
+      <w>42</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Eleve</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,289 @@
+
+/**
+ * style de base page accueil
+ ***/
+.cellule
+{
+    width:100%;
+    height:150px;
+    text-align:center;
+    font-size:36pt;
+    text-align:center;
+}
+.cellule a:hover
+{
+ color:white;   
+}
+.cellule a
+{
+ color:black;
+ text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Largeur limite de la page et couleur de fond*/
+body
+{
+    width:800px;
+    margin:auto;
+    background-color:#aaaaaa;
+}
+
+
+
+
+
+/*  D�finir l'affichage de la bo�te de connexion */
+.accueil
+{
+    background-color:#cccccc;
+    border-radius:9px;
+    border:3px outset;
+    padding:10px;
+    width:80%;
+    height:auto;
+    vertical-align:middle;
+    margin:auto;
+    
+}
+
+
+
+
+/* D�finir le format de la bo�te de d�connexion */
+.disbox
+{
+width:auto;
+display:inline;
+float:right;
+}
+
+.disbox a
+{
+text-decoration:none;
+color:silver;
+}
+
+.disbox a:hover
+{
+text-decoration:underline;
+font-weight:bold;
+color:white;
+}
+
+  
+/* lien pour la documentation sur la page d'accueil */
+.liendoc{
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.liendoc a{
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 3px 3px lightgray;     
+    text-decoration: none;
+}
+
+.liendoc a:hover{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 3px 3px lightgray;     
+}
+
+.liendoc img{
+    width: 60px;
+}
+
+/* Ajuster la taille de la l�gende */
+fieldset legend
+{
+    font-size:10pt;
+}
+
+
+
+
+
+
+
+
+/**
+ *
+ *
+ *  Ensemble de styles d'affichage pour les d�tail d'une demande
+ *
+ **/
+/* Entrourer la liste avec les coins arrondis */
+.ListeDemandes
+{
+    margin-bottom:10px;
+    background-color:#cccccc;
+    border-radius:9px;
+    border:3px outset;
+    padding:10px;
+    font-size:24pt;
+    
+}
+table.ListeDemandes  td
+{
+    padding:3px;
+    border-style:solid;
+    border-width:0px;
+}
+
+
+/* Ligne titre des demandes */
+.LigneTitre{
+    background-color:#333333;
+    color:white;
+    font-weight:bold;
+    border-style:none;
+    border-width:0px;    
+}
+
+/* Taille des champs */
+.ID{
+    width:10%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Nom{
+    width:60%;
+    border-style:none;
+    border-width:0px;
+}
+    
+.Local{
+    width:15%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Poste{
+    width:10%;
+    text-align:center;
+    border-style:none;
+    border-width:0px;    
+}
+
+.Operations{
+    text-align:center;
+    border-style:none;
+    border-width:0px;     
+}
+
+
+
+/* Ajouter un pictogramme terminer */
+.IconeTerminer{
+    width:70px;
+    border-style:none;
+}
+
+.IconeTerminer:hover{
+    border:solid 1px;
+}
+
+
+/* Ajouter un pictogramme suspprimer */
+.IconeSupprimer{
+    width:50px;
+    border-style:none;
+}
+
+/* Ajouter un pictogramme suspprimer */
+.IconeSupprimer:hover{
+    border:solid 1px;
+}
+
+
+/* couleur de la demande attente */
+.EnAttente{
+    background-color:yellow;
+}
+
+/* couleur de la demande en cours */
+.EnCours{
+    background-color:#66aa66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* D�finir la taille et la position de la zone image et de l'image du lien */
+.image
+{
+text-align:right;
+top:10px;
+position:relative;
+min-height:50px;
+}
+.image img
+{
+width:250px;
+}
+
+
+
+/* D�finir la poption de la date sous l'image a droite */
+.dateinscription
+{
+margin-top:10px;
+text-align:right;
+}
+
+
+
+/* position des icones pour l'ajout, modification et suppression */
+.icones
+{
+    text-align:right;
+    
+}
+
+/* D�finir la taille et la bordure des icones */
+.icones img
+{
+    width:30px;
+    border-style:none; 
+}
+
+
+/* Affachage du bouton de retour */
+.retour
+{
+    text-align:right;
+}
+.retour a
+{
+    text-decoration:none;
+}
