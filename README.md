@@ -19,7 +19,7 @@ pass:admin<br/><br/><br/>
 Pour plus d'information sur la mise en place du système voir le [guide de mise en place du serveur](docs/admins/Guide-de-mise-en-place-du-serveur-Ubuntu-pour-suPProf.pdf)<br/><br/>
 Le dossier [docs](./docs/) contient les guides d'utilisation pour les trois rôles de base :<br/>
 <ul>
-<li>[Guide Étudiant](./docs/eleves/supprof-etudiants.pdf)</li>
-<li>[Guide Enseignant](./docs/enseignants/supprof-enseignants.pdf)</li>
-<li>[Guide Admin](./docs/admins/supprof-administrateur.pdf)</li>
+<li>a [Guide Étudiant](./docs/eleves/supprof-etudiants.pdf) </li>
+<li>b [Guide Enseignant](./docs/enseignants/supprof-enseignants.pdf)</li>
+<li>c [Guide Admin](./docs/admins/supprof-administrateur.pdf)</li>
 </ul>
