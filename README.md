@@ -16,6 +16,9 @@ pass:enseignant<br/><br/>
 user:admin@admin.ca<br/>
 pass:admin<br/><br/><br/>
 
-Pour plus d'information sur la mise en place du système voir le [guide](docs/admins/Guide-de-mise-en-place-du-serveur-Ubuntu-pour-suPProf.pdf)
-
+Pour plus d'information sur la mise en place du système voir le [guide de mise en place du serveur](docs/admins/Guide-de-mise-en-place-du-serveur-Ubuntu-pour-suPProf.pdf)<br/><br/>
+Le dossier [docs](./docs/) contient les guides d'utilisation pour les trois rôles de base :<br/>
+[Guide Étudiant](./docs/etudiants/supprof-etudiants.pdf)
+[Guide Enseignant](./docs/enseignants/supprof-enseignants.pdf)
+[Guide Admin](./docs/admins/supprof-administrateur.pdf)
 
