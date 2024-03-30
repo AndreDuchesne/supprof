@@ -55,6 +55,6 @@ Merci pour votre intérêt à améliorer ce projet!
 
 ## Contact
 
-Pour toute question ou commentaire, n'hésitez pas à nous contacter à [adresse e-mail ou autre moyen de contact].
+Pour toute question ou commentaire, n'hésitez pas à nous contacter à [André Duchesne](mailto://andre.duchesne@cssdd.gouv.qc.ca).
 
 
