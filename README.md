@@ -16,6 +16,6 @@ pass:enseignant
 user:admin@admin.ca
 pass:admin
 
-Pour plus d'information sur la mise en place du système voir le [guide] (docs/)
+Pour plus d'information sur la mise en place du système voir le [guide]()
 
 
