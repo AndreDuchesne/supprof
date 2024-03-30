@@ -16,6 +16,6 @@ pass:enseignant
 user:admin@admin.ca
 pass:admin
 
-Pour plus d'information sur la mise en place du système voir le [guide]()
+Pour plus d'information sur la mise en place du système voir le [guide](docs/admins/Guide de mise en place du serveur Ubuntu pour suPProf.pdf)
 
 
