@@ -20,8 +20,8 @@ Pour plus d'information sur la mise en place du système voir le [guide de mise 
 
 ##<h2>Configuration de la connexion</h2>
 Les fichiers de configuration de la connexion à la base de données devront être ajustés a votre environnement serveur<br/>
-[connexion.php](supadmin/config/connexion.php) <br/>
-[db.php](supadmin/config/db.php)<br/><br/>
+/supprof/supadmin/config/[connexion.php](supadmin/config/connexion.php) <br/>
+/supprof/supadmin/config/[db.php](supadmin/config/db.php)<br/><br/>
 
 ##<h2>Guide d'utilisation</h2>
 Le dossier documentation contient également les guides d'utilisation pour les trois rôles de base :<br/>
