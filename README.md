@@ -3,7 +3,7 @@
  Elle a été conçues pour être utilisée sur un réseau local protégé afin de supporter l'enseignement individualisé en laboratoire.  
  La base de donnnées a été initialisée avec certaines informations du programme Soutien Informatique 5385. 
  
-[Installation]
+<h2>Installation</h2>
 En résumé l'installation conciste a monter un serveur Ubuntu minimum avec un accès SSH, installer la plateforme Xampp, télécharger et extraire le projet suPProf dans le dossier principale du serveur web et finalement importer la base de données. 
 Nom d'utilisateurs par défaut inscrit dans la base de données<br/>
 user:etudiant<br/>
@@ -18,23 +18,34 @@ pass:admin<br/><br/><br/>
 Pour plus d'information sur la mise en place du système voir le [guide de mise en place du serveur](docs/admins/Guide-de-mise-en-place-du-serveur-Ubuntu-pour-suPProf.pdf)<br/><br/>
 
 
-##Configuration de la connexion
+<h2>Configuration de la connexion</h2>
 Les fichiers de configuration de la connexion à la base de données devront être ajustés a votre environnement serveur<br/>
 /supprof/supadmin/config/[connexion.php](supadmin/config/connexion.php)<br/>
 /supprof/supadmin/config/[db.php](supadmin/config/db.php)<br/><br/>
 
-##Guide d'utilisation
+<h2>Guide d'utilisation</h2>
 Le dossier documentation contient également les guides d'utilisation pour les trois rôles de base :<br/>
 
 [Guide Étudiant](./docs/eleves/supprof-etudiants.pdf) <br/>
 [Guide Enseignant](./docs/enseignants/supprof-enseignants.pdf)<br/>
 [Guide Admin](./docs/admins/supprof-administrateur.pdf)<br/>
 
-## Contribution
+<h2>Contribution</h2>
 
-[Informations sur la manière de contribuer au projet]
+N'hésitez-pas a contribuer en toute liberté et de la façon qui vous convient le mieux. Si vous souhaitez contribuer, vous pouvez suivre ces étapes qui sont généralement :
 
-## Avertissement
+1. **Fork** du projet sur GitHub.
+2. Créez une branche pour votre contribution (`git checkout -b nom-de-votre-branche`).
+3. Effectuez les modifications ou ajouts nécessaires.
+4. Testez vos modifications.
+5. Committez vos changements (`git commit -am 'Ajout de fonctionnalité X'`).
+6. Pusher vers la branche (`git push origin nom-de-votre-branche`).
+7. Soumettez une **pull request** avec une description détaillée de vos modifications.
+
+Merci pour votre intérêt à améliorer ce projet!
+
+
+<h2>Avertissement</h2> 
 
 **Erreurs et Limitations :** Ce code peut contenir des erreurs importantes de conception, de sécurité et de codage. Il est recommandé de procéder à une révision approfondie avant toute utilisation en production.
 
