@@ -18,7 +18,7 @@ Les fichiers de configuration de la connexion à la base de données devront êt
 /supprof/supadmin/config/[db.php](supadmin/config/db.php)<br/><br/>
 
 Pour plus d'information sur la mise en place du système voir le [guide de mise en place du serveur](docs/admins/Guide-de-mise-en-place-du-serveur-Ubuntu-pour-suPProf.pdf)<br/><br/>
-Le dossier documentations contient les guides d'utilisation pour les trois rôles de base :<br/>
+Le dossier documentation contient également les guides d'utilisation pour les trois rôles de base :<br/>
 
 [Guide Étudiant](./docs/eleves/supprof-etudiants.pdf) <br/>
 [Guide Enseignant](./docs/enseignants/supprof-enseignants.pdf)<br/>
