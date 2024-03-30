@@ -1,12 +1,12 @@
-# supprof
- Application pour la gestion des demandes d'assistance aux enseignants en formation présentielle individualisée 
+# suPProf
+ Application pour la gestion des demandes d'assistance aux enseignants en formation présentielle individualisée <br/><br/>
 
 
-Les fichiers de configuration de la connexion doivent être ajustés\n
-/supprof/supadmin/config/[connexion.php](supadmin/config/connexion.php)\n
-/supprof/supadmin/config/[db.php](supadmin/config/db.php)\n\n
+Les fichiers de configuration de la connexion doivent être ajustés<br/>
+/supprof/supadmin/config/[connexion.php](supadmin/config/connexion.php)<br/>
+/supprof/supadmin/config/[db.php](supadmin/config/db.php)<br/><br/>
 
-Nom d'utilisateurs par défaut inscrit dans la base de données\n
+Nom d'utilisateurs par défaut inscrit dans la base de données<br/>
 user:etudiant\n
 pass:etudiant\n\n
 
