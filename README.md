@@ -3,8 +3,8 @@
 
 
 Les fichiers de configuration de la connexion doivent être ajustés
-/supprof/supadmin/config/connexion.php
-/supprof/supadmin/config/db.php
+/supprof/supadmin/config/[connexion.php](supadmin/config/connexion.php)
+/supprof/supadmin/config/[db.php](supadmin/config/db.php)
 
 Nom d'utilisateurs par défaut inscrit dans la base de données
 user:etudiant
