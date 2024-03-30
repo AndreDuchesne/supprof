@@ -3,7 +3,7 @@
  Elle a été conçues pour être utilisée sur un réseau local protégé afin de supporter l'enseignement individualisé en laboratoire.  
  La base de donnnées a été initialisée avec certaines informations du programme Soutien Informatique 5385. 
  
-##Installation
+[Installation]
 En résumé l'installation conciste a monter un serveur Ubuntu minimum avec un accès SSH, installer la plateforme Xampp, télécharger et extraire le projet suPProf dans le dossier principale du serveur web et finalement importer la base de données. 
 Nom d'utilisateurs par défaut inscrit dans la base de données<br/>
 user:etudiant<br/>
