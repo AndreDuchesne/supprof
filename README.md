@@ -1,6 +1,6 @@
 # suPProf
  Ce dépôt contient le code source de l'application suPProf. Cette application permet de gérer les demandes d'assistance faites aux enseignants.
- Elle a été conçues pour être utilisée sur un réseau local protégé afin de supporter l'enseignement individualisé en laboratoire.  
+ Elle a été conçues autour de la technologie SSE (Server-Sent Events) pour être utilisée sur un réseau local protégé afin de supporter l'enseignement individualisé en laboratoire. Elle permet d'afficher et gérer en temps réel les demandes d'assistance en classe.  
  La base de donnnées a été initialisée avec certaines informations du programme Soutien Informatique 5385. 
  
 ##<h2>Installation</h2>
